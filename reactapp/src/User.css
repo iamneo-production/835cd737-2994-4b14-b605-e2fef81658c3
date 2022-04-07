@@ -1,0 +1,96 @@
+<html class=" ">
+   <head>
+      <base href="/">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <link rel="stylesheet" media="screen" href="https://c.staticblitz.com/assets/css/preview-fe9dd8655d2ba.css">
+      <script src="https://c.staticblitz.com/assets/js/ext-8c5e59055d04a.js" crossorigin="anonymous"></script>
+      <script src="https://c.staticblitz.com/d/webcontainer.edaa338d0cacc40e5cf9f8d147594c9e429d4714.js" crossorigin="anonymous"></script>
+      <script src="https://c.staticblitz.com/assets/js/preview-a90493f83da5a.js" crossorigin="anonymous"></script>
+      <script>(function(){_preboot("https://l.staticblitz.com/b/v1/react/ef8d275cfb1", {"p":"stackblitz","a":"AIzaSyBZSvuCzbUhuRrSps-HjM5bFClLPaFF9Vg","o":false,"u":null,"$":false})})()</script>
+      <style type="text/css">* {
+         font-family: 'Times New Roman', Times, serif;
+         }
+         .headings {
+         display: flex;
+         justify-content: space-between;
+         }
+         #event {
+         background-color: rgb(127, 225, 255);
+         }
+         .App {
+         width: 100%;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         }
+         table {
+         border: 2px;
+         width: 800px;
+         height: 200px;
+         }
+         th {
+         border-bottom: 1px solid black;
+         }
+         td {
+         text-align: center;
+         border-bottom: 1px solid lightslategrey;
+         }
+         #redc {
+         color: red;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="root">
+         <div class="App">
+            <div style="width:50%">
+               <table style="width:400px">
+                  <tbody>
+                     <tr>
+                        <th>Booking ID</th>
+                        <th>Lawyer</th>
+                        <th>Date</th>
+                     </tr>
+                     <tr id="redc">
+                        <td>F34E-RST1-OPQS</td>
+                        <td>ABC</td>
+                        <td>10-02-2021</td>
+                     </tr>
+                     <tr>
+                        <td>ASDF-45DF-FSIL</td>
+                        <td>GHI</td>
+                        <td>18-01-2021</td>
+                     </tr>
+                     <tr>
+                        <td>WSIL-21R2-FVEE</td>
+                        <td>UVW</td>
+                        <td>01-01-2021</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div style="width:50%">
+               <h1 style="border-radius: 20%; text-align:center">ABC SPA Report</h1>
+               <div class="headings">
+                  <h3 align="left">Mr.XYZ</h3>
+                  <h3 align="right">10-02-2021</h3>
+               </div>
+               <div class="event" style="display: inline; justify-content: center; border-radius: 20%;"><textarea name="event" class="input" id="event" rows="12" cols="50" required="" minlength="5" maxlength="100" placeholder="Enter the case details here..." style="width:100%"></textarea></div>
+               <div class="messages">
+                  <div class="error" style="display: none;">
+                     <h1>Please enter all the fields</h1>
+                  </div>
+                  <div class="success" style="display: none;">
+                     <h1>Successfully uploaded!!</h1>
+                  </div>
+               </div>
+               <div style="">
+                  <h1 align="right">Signature</h1>
+                  <h3 align="right">Digitally Verified</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
